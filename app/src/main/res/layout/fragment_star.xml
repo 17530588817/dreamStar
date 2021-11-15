@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_yellow"
-    tools:context=".starfrag.StarFragment">
+    tools:context=".startFrag.StarFragment">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/starfrag_vp"
@@ -26,6 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/starfrag_vp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:numColumns="4" />
 </RelativeLayout>
